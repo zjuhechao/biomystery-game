@@ -1,10 +1,8 @@
 var e=(e,t,n)=>({id:e,type:`narration`,text:t,speaker:``,background:n,sprite:void 0}),t=(e,t,n,r,i,a)=>({id:e,type:`dialogue`,speaker:t,speakerKey:n,text:r,sprite:i?{key:i,position:i===`linmo`?`left`:`right`}:void 0,effects:a}),n=(e,t,n)=>({id:e,type:`choice`,text:t,choices:n,speaker:``}),r=(e,t,n,r,i)=>({id:e,type:`quiz`,text:t,quiz:n,onCorrect:r,onWrong:i,speaker:``}),i=(e,t,n,r)=>({id:e,type:`cg`,text:t,background:n,speaker:``,cgImage:r}),a=[e(`s0-1-1`,`他们说，时间是一条单行道。
 他们说，过去无法改变。
-他们错了。`,`dark`),i(`s0-1-2`,`一枚绿色的量子生物酶分子在X射线晶体衍射图谱中缓缓旋转，光谱在它周围扭曲成螺旋。
-
-我叫林墨。
+他们错了。`,`black`),e(`s0-1-2a`,`一枚绿色的量子生物酶分子在X射线晶体衍射图谱中缓缓旋转，光谱在它周围扭曲成螺旋。`,`black`),e(`s0-1-2b`,`我叫林墨。
 这是我入职普罗米修斯生物科技的第一天。
-也是我第一次死亡的日子。`,`black`,`/images/cg/cg_reincarnation_awakening.png`),e(`s0-1-3`,`当然，现在的我还什么都不知道。
+也是我第一次死亡的日子。`,`black`),e(`s0-1-3`,`当然，现在的我还什么都不知道。
 我只知道，这份工作的薪水是上一份的三倍。
 对于一个刚被开除的数据纠错员来说——这已经足够了。
 足够到让我忽略了一切不合理的地方。`,`exterior`),t(`s0-2-1`,`前台小刘`,`receptionist`,`您好，请问是林墨先生吗？张总已经交代过了，请直接上电梯到7楼——第7号实验楼。`,`receptionist`),e(`s0-2-2`,`第七号实验楼。我后来才知道，整个公司只有七个人在那里工作。其中六个——会在接下来的日子里——以不同的方式——死在我面前。`,`corridor`),n(`s0-2-3`,`前台小刘保持着职业微笑，但她的眼神短暂地闪烁了一下。`,[{text:`【礼貌回应】"谢谢，我自己上去就好。"`,next:[e(`s0-2-3a`,`你没有多问。乘电梯上楼。后来你发现——问正确的问题，在正确的时间——能救你的命。`,`corridor`)]},{text:`【随口多问】"第7号楼是做什么研究的？"`,next:[t(`s0-2-3b`,`前台小刘`,`receptionist`,`"蛋白质结构预测和酶催化研究。非常安全的基础研究。"
