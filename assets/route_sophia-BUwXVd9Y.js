@@ -1,4 +1,4 @@
-var e=(e,t,n)=>({id:e,type:`narration`,text:t,speaker:``,background:n}),t=(e,t,n,r,i,a)=>({id:e,type:`dialogue`,speaker:t,speakerKey:n,text:r,sprite:i?{key:i,position:i===`linmo`?`left`:`right`}:void 0,effects:a}),n=(e,t,n)=>({id:e,type:`choice`,text:t,choices:n,speaker:``}),r=(e,t,n,r,i)=>({id:e,type:`quiz`,text:t,quiz:n,onCorrect:r,onWrong:i,speaker:``}),i=[e(`sf-s1-1`,`苏菲亚线·第一章
+var e=(e,t,n,r)=>({id:e,type:`narration`,text:t,speaker:``,background:n,effects:r}),t=(e,t,n,r,i,a)=>({id:e,type:`dialogue`,speaker:t,speakerKey:n,text:r,sprite:i?{key:i,position:i===`linmo`?`left`:`right`}:void 0,effects:a}),n=(e,t,n)=>({id:e,type:`choice`,text:t,choices:n,speaker:``}),r=(e,t,n,r,i)=>({id:e,type:`quiz`,text:t,quiz:n,onCorrect:r,onWrong:i,speaker:``}),i=[e(`sf-s1-1`,`苏菲亚线·第一章
 
 "母爱的分子基础"
 
@@ -155,16 +155,4 @@ CN⁻。细胞色素c氧化酶——复合体IV——的抑制剂。张总在我
 
 ……我明白了。
 （把项链吊坠从桌上推过来——手很稳——比任何时候都稳）
-告诉Emma——妈妈出差去了——很远很远的地方。`,void 0,{affection:{sophia:0},flag:`sf_betray`,san:-30})],effects:{affection:{sophia:0},flag:`sf_betray`,san:-30}}]),((e,t)=>({id:e,type:`system`,text:t,speaker:``}))(`sf-end`,`苏菲亚线专属结局触发条件：
-
-【HE · E02-SF 阳光下的女儿】
-条件：好感度≥80 + 全部分子生物学答题正确 + 在最终选择中选择"相信苏菲亚"
-结局：苏菲亚成功完成靶向递送系统设计。盖亚协议介入后——数据移交独立研究机构。两年后——Emma接受实验性基因治疗——QZ-酶的工程化变体成功补偿了ATP合酶缺陷。CG：阳光明媚的医院花园——Emma在草地上奔跑——这是她第一次能跑超过二十米。苏菲亚坐在长椅上——终于哭了——不是无声的——是放声大哭。你站在她身边。
-
-【BE · E04-SF 白大褂下的背叛】
-条件：在关键节点选择"出卖苏菲亚"——或好感度不足
-结局：苏菲亚被张总交给盖亚协议"清理"。她被带走的最后一刻把项链扔给你。后来你得知——Emma在等待中去世。而你——成了张总的棋子——永远活在愧疚里。CG：空荡荡的实验室。白大褂挂在椅背上——还是她脱下来的样子。台面上——一张便签——字迹快认不出来了——"不要让Emma等我。"
-
-【真结局分支 · 苏菲亚版】
-条件：完成苏菲亚线全部内容——并在主线最终轮回中携带sf_trust标记
-结局：苏菲亚在最终对决中牺牲——临终前将递送系统的完整数据交给了你。每年Emma生日——你都会收到来自盖亚协议加密线路的卡片——是苏菲亚在被发现前录制的视频——设定在每年Emma生日自动发送。`)];export{i as routeSophiaScript};
+告诉Emma——妈妈出差去了——很远很远的地方。`,void 0,{affection:{sophia:0},flag:`sf_betray`,san:-30})],effects:{affection:{sophia:0},flag:`sf_betray`,san:-30}}]),((e,t)=>({id:e,type:`system`,text:t,speaker:``}))(`sf-end`,`▎苏菲亚线 结局`),e(`sf-end-he`,`两年后——Emma接受实验性基因治疗。QZ-酶的工程化变体成功补偿了ATP合酶缺陷。阳光明媚的医院花园——Emma在草地上奔跑——这是她第一次能跑超过二十米。苏菲亚坐在长椅上——终于哭了——不是无声的——是放声大哭。你站在她身边。她握住你的手："十八亿年的进化——在这一刻——值了。"`,`rooftop_day`,{condition:{flag:`sf_trust`}}),e(`sf-end-sacrifice`,`苏菲亚在最终对决中牺牲——临终前将递送系统的完整数据交给了你。后来——每年Emma生日——你都会收到来自盖亚协议加密线路的卡片。是苏菲亚在被发现前录制的视频。每一年——Emma都会问：妈妈什么时候回来？每一年——视频里苏菲亚都在最后说：妈妈爱你。一直爱你。`,`rooftop_day`,{condition:{flag:`sf_stay`}}),e(`sf-end-be`,`苏菲亚被张总交给盖亚协议"清理"。她被带走的最后一刻把项链扔给你。后来你得知——Emma在等待中去世。而你——成了张总的棋子。空荡荡的实验室。白大褂挂在椅背上——还是她脱下来的样子。台面上——一张便签——"不要让Emma等我。"`,`dark`,{condition:{flag:`sf_betray`}})];export{i as routeSophiaScript};
