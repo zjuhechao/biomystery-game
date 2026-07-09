@@ -3,7 +3,7 @@ var e=(e,t,n,r)=>({id:e,type:`narration`,text:t,speaker:``,background:n,effects:
 "母爱的分子基础"
 
 你选择去找苏菲亚——不是因为信任，恰恰是因为她最可疑。
-DNA存储库门前，冷蓝色灯光勾勒出她的轮廓。她正低头看着手里那支"口红"。`,`dna_storage`),t(`sf-s1-2`,`林墨`,`linmo`,`那不是口红——对吧？`,`linmo`),t(`sf-s1-3`,`苏菲亚`,`sophia`,`（缓缓转身。翡翠绿的眼瞳里闪过一丝锐利——然后迅速消散为一种奇特的疲倦）
+DNA存储库门前，冷蓝色灯光勾勒出她的轮廓。她正低头看着手里那支"口红"。`,`dna_storage`),t(`sf-s1-2`,`林墨`,`linmo`,`那不是口红——对吧？`,`linmo`),,t(`sf-s1-3`,`苏菲亚`,`sophia`,`（缓缓转身。翡翠绿的眼瞳里闪过一丝锐利——然后迅速消散为一种奇特的疲倦）
 
 ……入职第一天就敢跟踪海外顾问。现在我理解张总为什么招你了。`,`sophia`),e(`sf-s1-4`,`她把那支"口红"放进口袋。动作很轻——像是在放一件会碎的东西。`,`dna_storage`),t(`sf-s1-5`,`苏菲亚`,`sophia`,`没错。微型录音器。里面存了张总和DARPA代表的三次通话记录。
 你想听吗？`,`sophia`),e(`sf-s1-6`,`她没有等你回答。按下播放键——`,`dna_storage`),e(`sf-s1-7`,`录音播放。张总的声音冷静得像在汇报实验数据——
@@ -31,7 +31,7 @@ Emma。八岁。三岁时确诊——Leigh综合征。
 医生说——她大概还有两年。`,`sophia`,{affection:{sophia:15}}),t(`sf-s1-20`,`苏菲亚`,`sophia`,`我研究线粒体生物学十五年。发过Cell——发过Nature Genetics——评审过三十八篇SCI论文。
 但我修不好我女儿的呼吸链。
 （她笑了——那种笑比哭更让人受不了）`,`sophia`),t(`sf-s1-21`,`苏菲亚`,`sophia`,`QZ-酶有一个所有人都没注意到的性质——它的铁硫簇结构可以插入哺乳动物线粒体呼吸链复合体，补偿缺陷亚基的功能。
-如果我能得到足够的纯化酶样本——我就可以设计靶向线粒体的蛋白递送系统——把Emma的呼吸链修好。`,`sophia`,{knowledge:`qz_enzyme_fes_cluster`}),((e,t,n,r)=>({id:e,type:`cg`,text:t,background:n,speaker:``,cgImage:r}))(`sf-cg-emma`,`DNA存储库的蓝色冷光中——苏菲亚紧握着项链吊坠。她的红发在冷光中像凝固的火焰。她在哭——但脸没有动。眼泪只是无声地滑下来——像一种已经习惯了太久的生理反应。吊坠里——Emma还在笑。`,`dna_storage`,`/images/cg/cg_sophia_confrontation.png`),t(`sf-s1-23`,`林墨`,`linmo`,`……所以你来普罗米修斯——不是为了盖亚协议的任务——是为了Emma。`,`linmo`),t(`sf-s1-24`,`苏菲亚`,`sophia`,`（擦去眼泪——动作很轻，像在擦显微镜镜头）
+如果我能得到足够的纯化酶样本——我就可以设计靶向线粒体的蛋白递送系统——把Emma的呼吸链修好。`,`sophia`,{knowledge:`qz_enzyme_fes_cluster`}),e(`sf-cg-emma`,`DNA存储库的蓝色冷光中——苏菲亚紧握着项链吊坠。她的红发在冷光中像凝固的火焰。她在哭——但脸没有动。眼泪只是无声地滑下来——像一种已经习惯了太久的生理反应。吊坠里——Emma还在笑。`,`dna_storage`),t(`sf-s1-23`,`林墨`,`linmo`,`……所以你来普罗米修斯——不是为了盖亚协议的任务——是为了Emma。`,`linmo`),t(`sf-s1-24`,`苏菲亚`,`sophia`,`（擦去眼泪——动作很轻，像在擦显微镜镜头）
 两者都是。盖亚协议让我来摧毁QZ-酶的研究。我接手——因为我知道这里有QZ-酶。
 但现在我发现了——酶需要一个活的"完美适配体"才能稳定生产。
 那就是你。`,`sophia`,{affection:{sophia:10}}),t(`sf-s1-25`,`苏菲亚`,`sophia`,`所以我必须做一个选择。
@@ -155,4 +155,4 @@ CN⁻。细胞色素c氧化酶——复合体IV——的抑制剂。张总在我
 
 ……我明白了。
 （把项链吊坠从桌上推过来——手很稳——比任何时候都稳）
-告诉Emma——妈妈出差去了——很远很远的地方。`,void 0,{affection:{sophia:0},flag:`sf_betray`,san:-30})],effects:{affection:{sophia:0},flag:`sf_betray`,san:-30}}]),((e,t)=>({id:e,type:`system`,text:t,speaker:``}))(`sf-end`,`▎苏菲亚线 结局`),e(`sf-end-he`,`两年后——Emma接受实验性基因治疗。QZ-酶的工程化变体成功补偿了ATP合酶缺陷。阳光明媚的医院花园——Emma在草地上奔跑——这是她第一次能跑超过二十米。苏菲亚坐在长椅上——终于哭了——不是无声的——是放声大哭。你站在她身边。她握住你的手："十八亿年的进化——在这一刻——值了。"`,`rooftop_day`,{condition:{flag:`sf_trust`}}),e(`sf-end-sacrifice`,`苏菲亚在最终对决中牺牲——临终前将递送系统的完整数据交给了你。后来——每年Emma生日——你都会收到来自盖亚协议加密线路的卡片。是苏菲亚在被发现前录制的视频。每一年——Emma都会问：妈妈什么时候回来？每一年——视频里苏菲亚都在最后说：妈妈爱你。一直爱你。`,`rooftop_day`,{condition:{flag:`sf_stay`}}),e(`sf-end-be`,`苏菲亚被张总交给盖亚协议"清理"。她被带走的最后一刻把项链扔给你。后来你得知——Emma在等待中去世。而你——成了张总的棋子。空荡荡的实验室。白大褂挂在椅背上——还是她脱下来的样子。台面上——一张便签——"不要让Emma等我。"`,`dark`,{condition:{flag:`sf_betray`}})];export{i as routeSophiaScript};
+告诉Emma——妈妈出差去了——很远很远的地方。`,void 0,{affection:{sophia:0},flag:`sf_betray`,san:-30})],effects:{affection:{sophia:0},flag:`sf_betray`,san:-30}}]),((e,t)=>({id:e,type:`system`,text:t,speaker:``}))(`sf-end`,`▎苏菲亚线 结局`),t(`sf-end-he`,``,``,`两年后——Emma接受实验性基因治疗。QZ-酶的工程化变体成功补偿了ATP合酶缺陷。阳光明媚的医院花园——Emma在草地上奔跑——这是她第一次能跑超过二十米。苏菲亚坐在长椅上——终于哭了——不是无声的——是放声大哭。你站在她身边。她握住你的手："十八亿年的进化——在这一刻——值了。"`,void 0,{condition:{flag:`sf_trust`}}),t(`sf-end-sacrifice`,``,``,`苏菲亚在最终对决中牺牲——临终前将递送系统的完整数据交给了你。后来——每年Emma生日——你都会收到来自盖亚协议加密线路的卡片。是苏菲亚在被发现前录制的视频。每一年——Emma都会问：妈妈什么时候回来？每一年——视频里苏菲亚都在最后说：妈妈爱你。一直爱你。`,void 0,{condition:{flag:`sf_stay`}}),t(`sf-end-be`,``,``,`苏菲亚被张总交给盖亚协议"清理"。她被带走的最后一刻把项链扔给你。后来你得知——Emma在等待中去世。而你——成了张总的棋子。空荡荡的实验室。白大褂挂在椅背上——还是她脱下来的样子。台面上——一张便签——"不要让Emma等我。"`,void 0,{condition:{flag:`sf_betray`}})];export{i as routeSophiaScript};
