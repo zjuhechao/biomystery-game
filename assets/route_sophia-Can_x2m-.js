@@ -1,4 +1,4 @@
-var e=(e,t,n,r)=>({id:e,type:`narration`,text:t,speaker:``,background:n,effects:r}),t=(e,t,n,r,i,a)=>({id:e,type:`dialogue`,speaker:t,speakerKey:n,text:r,sprite:i?{key:i,position:i===`linmo`?`left`:`right`}:void 0,effects:a}),n=(e,t,n)=>({id:e,type:`choice`,text:t,choices:n,speaker:``}),r=(e,t,n,r,i)=>({id:e,type:`quiz`,text:t,quiz:n,onCorrect:r,onWrong:i,speaker:``}),i=[e(`sf-s1-1`,`苏菲亚线·第一章
+var e=(e,t,n)=>({id:e,type:`narration`,text:t,speaker:``,background:n}),t=(e,t,n,r,i,a)=>({id:e,type:`dialogue`,speaker:t,speakerKey:n,text:r,sprite:i?{key:i,position:i===`linmo`?`left`:`right`}:void 0,effects:a}),n=(e,t,n)=>({id:e,type:`choice`,text:t,choices:n,speaker:``}),r=(e,t,n,r,i)=>({id:e,type:`quiz`,text:t,quiz:n,onCorrect:r,onWrong:i,speaker:``}),i=[e(`sf-s1-1`,`苏菲亚线·第一章
 
 "母爱的分子基础"
 
